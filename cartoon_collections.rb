@@ -15,7 +15,6 @@ def find_the_cheese(array)
   puts array.inspect
   puts array.find {|element|true}
   array.find do |element|
-    # puts cheese_types.include?(element)
     cheese_types.include?(element)
   end
 end
